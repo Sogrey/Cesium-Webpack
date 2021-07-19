@@ -2,7 +2,7 @@ const path = require("path"); // 路径组件。
 const nodeEnv = process.env.NODE_ENV; // 编译模式。
 
 const cesiumSource = 'node_modules/cesium/Source'; // Cesium源码路径。
-const onePackage = false; // 是否打包成一个文件。
+const onePackage = false; // 是否打包成一个文件,true 会打成一个包。
 const webpack = require('webpack'); // 访问内置的插件。
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // HTML插件。
 const CopyWebpackPlugin = require('copy-webpack-plugin'); // 拷贝文件插件。
